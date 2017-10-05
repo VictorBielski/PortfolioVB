@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	padding-top: 0;
+	font-family: "Raleway", sans-serif;
+	background:#FFFFFF;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/*Style nav bar*/
+.nav {
+	background-color: #27A571;
+	color: #ffffff;
+	list-style: none;
+	text-align: right;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 25px 0 25px 0;
+	
+}
+
+.nav li {
+	display: inline-block;
+	padding-right: 100px;
+	font-size: 18px;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.nav li a:hover {
+	color: #c1c1c1;
+}
+
+
+/*Style logo*/
+.logo {
+	color: #000000;
+	float: left;
+	padding-left: 100px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.logo a:hover {
+	color: #c1c1c1;
+}
+
+
+/*Style banner*/
+.banner {
+	width: 100%;
+	display: block;
+}
+
+.banner2 {
+	width: 100%;
+	display: block;
+}
+
+
+/*Style textboxes*/
+.kompetencer1 {
+	width: 298px;
+	margin: 40px 70px;
+	padding: 10px 5px;
+	float: left;
+	margin-top: auto;
+	border-radius: 25px;
+	align-content: center;
+	position: relative;
+}
+
+.kompetencer1 p {
+	font-size: 16px;
+	color: #000000;
+	max-width: 250px;
+}
+
+.kompetencer {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+
+/*Portfolio Styling*/
+.portfolio1 {
+	width: 298px;
+	margin: 20px 75px;
+	padding: 10px 5px;
+	float: right;
+	margin-top: auto;
+	border-radius: 25px;
+}
+
+.portfolio1 p {
+	font-size: 16px;
+	color: #000000;
+	max-width: 250px;
+}
+
+.portfolio {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+
+/*Om mig styling*/
+.ommigs {
+	width: 298px;
+	margin: 20px 20px;
+	padding: 10px 5px;
+	float: right;
+	margin-top: auto;
+	border-radius: 25px;
+}
+
+.ommigs p {
+	font-size: 16px;
+	color: #000000;
+	max-width: 250px;
+}
+
+.ommig1 {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+
+/*Bro projekt styling*/
+
+.broprojekt1 {
+	width: 298px;
+	margin: 20px 20px;
+	padding: 10px 5px;
+	float: right;
+	margin-top: auto;
+	border-radius: 25px;
+}
+
+.broprojekt1 p {
+	font-size: 16px;
+	color: #000000;
+	max-width: 250px;
+}
+
+.broprojekt {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+/*Kameludl.dk projekt*/
+.kameludl1 {
+	width: 298px;
+	margin: 20px 75px;
+	padding: 10px 5px;
+	float: right;
+	margin-top: auto;
+	border-radius: 25px;
+}
+
+.kameludj1 p {
+	font-size: 16px;
+	color: #000000;
+	max-width: 250px;
+}
+
+.kameludj {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+
+/*Portfolio XD styling*/
+.portfolioxd1 {
+	width: 298px;
+	margin: 20px 75px;
+	padding: 10px 5px;
+	float: right;
+	margin-top: auto;
+	border-radius: 25px;
+}
+
+.portfolioxd1 p {
+	font-size: 16px;
+	color: #000000;
+	max-width: 250px;
+}
+
+.portfolioxd {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #27A571;
+	color: #ffffff;
+	padding: 10px 0;
+	margin: 0 -5px;
+	border-radius: 25px;
+}
+
+.image {
+	max-width: 100px;
+	margin: 15px 0 0 0;
+}
+
+.heading {
+	text-align: center;
+	font-size: 25px;
+	color: #000000;
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+}
+
+.ommig {
+	width: 300px;
+}
+
+/*--Footer*/
+
+footer{
+	padding: 5px;
+	margin-top: 5px;
+	color: #ffffff;
+	background-color: #27A571;
+	text-align: right;
+	font-size: 10px;
+	clear: both;
+	margin-bottom: auto;
+}
+
+#kh3 {
+	text-align: center;
+}
+
+/*Kontakt felt*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #27A571;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #27A571;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #6781AD;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.bbu {
+	width: 298px;
+	height: 220px;
+	border-radius: 25px;
+	margin-top: 20px;
+}
+
+.github1 {
+	width: 298px;
+	height: 220px;
+	border-radius: 25px;
+}
+
+.github2 {
+	width: 298px;
+	height: 220px;
+	border-radius: 25px;
+}
+
+
+.github3 {
+	width: 298px;
+	height: 220px;
+	border-radius: 25px;
+}
